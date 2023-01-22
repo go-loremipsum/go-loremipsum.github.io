@@ -5,7 +5,7 @@
 ~~~go
 import "gopkg.in/loremipsum.v1"
 
-loremIpsumGeneratoe := loremipsum.New()
+loremIpsumGenerator := loremipsum.New()
 ~~~
 
 ### Generate random lorem ipsum word
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia lobortis efficitu
 ### Generate random lorem ipsum paragraphs
 
 ~~~go
-paragraphs := loremIpsumGenerator.Paragraphs()
+paragraphs := loremIpsumGenerator.Paragraphs(3)
 fmt.Println(paragraphs)
 ~~~
 
