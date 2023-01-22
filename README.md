@@ -3,7 +3,7 @@
 ## Usage
 
 ~~~go
-import "gopkg.in/loremipsum.v1"
+import "github.com/go-loremipsum/loremipsum"
 
 loremIpsumGenerator := loremipsum.New()
 ~~~
